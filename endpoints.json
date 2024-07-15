@@ -1,0 +1,23 @@
+{
+  "endpoints": [
+    {
+      "name": "Example Site",
+      "url": "https://example.com",
+      "method": "GET",
+      "timeout_seconds": 5
+    },
+    {
+      "name": "Example API",
+      "url": "https://httpbin.org/get",
+      "method": "GET",
+      "timeout_seconds": 10
+    },
+    {
+      "name": "Nonexistent Host",
+      "url": "https://thisdomaindoesnotexist.invalid",
+      "method": "GET",
+      "timeout_seconds": 3
+    }
+  ],
+  "interval_seconds": 30
+}
